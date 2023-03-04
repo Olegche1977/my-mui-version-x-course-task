@@ -46,7 +46,7 @@ const App = () => {
         }}
       >
         <Routes>
-          <Route path="/" element={<MyLayout />}>
+          <Route path="/my-mui-version-x-course-task" element={<MyLayout />}>
             <Route index element={<Signin />} />
             <Route path="booklist" element={<GoodsList />} />
             <Route path="specificbook" element={<SpecificBook />} />
